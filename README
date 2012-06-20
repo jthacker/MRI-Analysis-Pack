@@ -1,0 +1,8 @@
+Updates to the existing MRI Analysis Pak
+Original source code found here: http://ij-plugins.svn.sourceforge.net/viewvc/ij-plugins/trunk/MRIAnalysisPak/
+
+New Features:
+* Added R2* calculations
+
+Modifications:
+* Removed com.misc.Base64Encoder dependency in favor of apache commons
