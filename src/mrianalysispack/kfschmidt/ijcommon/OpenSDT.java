@@ -1,4 +1,4 @@
-package kfschmidt.ijcommon;
+package mrianalysispack.kfschmidt.ijcommon;
 
 /**
  *
@@ -66,7 +66,7 @@ public class OpenSDT implements PlugIn {
 				int id = openInImageJ(sdtfile, dims[1], dims[0], dims[2], dims[3], dattype, isLittleEndian(sprfiles[a]));
 
 				// set the dimensions in memory for other plugins
-				kfschmidt.ijcommon.IJAdapter ijada = new kfschmidt.ijcommon.IJAdapter();
+				mrianalysispack.kfschmidt.ijcommon.IJAdapter ijada = new mrianalysispack.kfschmidt.ijcommon.IJAdapter();
 
 				ijada.setImageDims(id, dims); // [height, width, slices, reps]
 

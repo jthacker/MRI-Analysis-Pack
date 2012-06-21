@@ -1,4 +1,4 @@
-package kfschmidt.glmanalyzer;
+package mrianalysispack.kfschmidt.glmanalyzer;
 
 /**
  *   User Interface for the GLM Analyzer
@@ -15,12 +15,13 @@ package kfschmidt.glmanalyzer;
  *
  *
  */
-import kfschmidt.ijcommon.IJImageChooser;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
-import kfschmidt.ijcommon.IJAdapter;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
 
 public class GLMUI extends JFrame implements WindowListener, ActionListener {
 	int mWidth = 550;

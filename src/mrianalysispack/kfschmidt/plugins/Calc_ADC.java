@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -16,5 +17,5 @@
  * 
  */
 
-public class Calc_ADC extends ij.plugin.ADCCalc {
+public class Calc_ADC extends mrianalysispack.ij.plugins.ADCCalc {
 }

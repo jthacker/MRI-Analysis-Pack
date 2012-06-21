@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -15,6 +16,6 @@
  * 
  */
 
-public class Truncate_Time_Series extends kfschmidt.ijcommon.TimeSeriesTruncator {
+public class Truncate_Time_Series extends mrianalysispack.kfschmidt.ijcommon.TimeSeriesTruncator {
 
 }

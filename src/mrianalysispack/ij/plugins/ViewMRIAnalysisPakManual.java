@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  * 
@@ -17,5 +17,5 @@ package ij.plugin;
  * 
  */
 
-public class ViewMRIAnalysisPakManual extends kfschmidt.ijcommon.ViewManual {
+public class ViewMRIAnalysisPakManual extends mrianalysispack.kfschmidt.ijcommon.ViewManual {
 }

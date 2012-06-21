@@ -13,7 +13,7 @@
  *
  *
  */
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 class LinearRegression {
 

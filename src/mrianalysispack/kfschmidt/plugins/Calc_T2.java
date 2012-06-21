@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin for ImageJ can be used to produce an image overlay where regions
@@ -17,5 +18,5 @@
  * 
  */
 
-public class Calc_T2 extends ij.plugin.T2Calc {
+public class Calc_T2 extends mrianalysispack.ij.plugins.T2Calc {
 }

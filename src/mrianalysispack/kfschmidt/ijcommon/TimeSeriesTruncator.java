@@ -1,4 +1,4 @@
-package kfschmidt.ijcommon;
+package mrianalysispack.kfschmidt.ijcommon;
 
 /**
  *
@@ -21,7 +21,10 @@ package kfschmidt.ijcommon;
  */
 import java.io.*;
 import javax.swing.*;
-import ij.*;
+
+import mrianalysispack.ij.*;
+import ij.ImagePlus;
+import ij.WindowManager;
 import ij.io.*;
 import ij.gui.NewImage;
 import ij.process.*;

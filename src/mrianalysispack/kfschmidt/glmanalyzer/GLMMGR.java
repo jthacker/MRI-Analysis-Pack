@@ -1,4 +1,4 @@
-package kfschmidt.glmanalyzer;
+package mrianalysispack.kfschmidt.glmanalyzer;
 
 /**
  *   This is the managerial class for the GLM Analyzer plugin.
@@ -15,7 +15,7 @@ package kfschmidt.glmanalyzer;
  *
  *
  */
-import kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
 
 public class GLMMGR {
 	GLMUI mUI;

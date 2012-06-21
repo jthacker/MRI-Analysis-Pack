@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -15,5 +16,5 @@
  * 
  */
 
-public class Calc_T1 extends ij.plugin.T1Calc {
+public class Calc_T1 extends mrianalysispack.ij.plugins.T1Calc {
 }

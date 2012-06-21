@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -14,6 +15,6 @@
  * 
  */
 
-public class Manually_Register_Images extends ij.plugin.ManuallyRegisterImagesPlugin {
+public class Manually_Register_Images extends mrianalysispack.ij.plugins.ManuallyRegisterImagesPlugin {
 
 }

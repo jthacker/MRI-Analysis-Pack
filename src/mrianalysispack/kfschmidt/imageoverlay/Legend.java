@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *   Legend creates a buffered image with a legend

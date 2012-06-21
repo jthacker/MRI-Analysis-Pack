@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *
@@ -15,9 +15,10 @@ package kfschmidt.imageoverlay;
  *
  *
  */
-import kfschmidt.ijcommon.ImageSource;
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.ImageSink;
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.ImageSink;
+import mrianalysispack.kfschmidt.ijcommon.ImageSource;
+
 import java.util.*;
 
 import java.awt.image.*;

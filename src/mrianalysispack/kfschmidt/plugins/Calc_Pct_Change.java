@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -16,5 +17,5 @@
  * 
  */
 
-public class Calc_Pct_Change extends ij.plugin.PercentChgCalc {
+public class Calc_Pct_Change extends mrianalysispack.ij.plugins.PercentChgCalc {
 }

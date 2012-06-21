@@ -1,4 +1,4 @@
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 /**
  *
@@ -16,14 +16,14 @@ package kfschmidt.mricalculations;
  */
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.IJImageChooser;
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import kfschmidt.ijcommon.IJAdapter;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
 
 public class ManualDAVISCMRO2Calc extends MRICalculation {
 	IJImageChooser mCO2BChooser;

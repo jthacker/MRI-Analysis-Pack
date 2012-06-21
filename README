@@ -1,5 +1,9 @@
 Updates to the existing MRI Analysis Pak
 Original source code found here: http://ij-plugins.svn.sourceforge.net/viewvc/ij-plugins/trunk/MRIAnalysisPak/
+Manual found here: http://rsbweb.nih.gov/ij/plugins/download/misc/MRIAnalysisPak/MRIAnalysisPak_Docs/MRIAnalysisPakManual.PDF
+
+Installation:
+
 
 New Features:
 * Added R2* calculations

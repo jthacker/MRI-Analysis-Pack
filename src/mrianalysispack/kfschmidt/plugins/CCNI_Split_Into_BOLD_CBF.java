@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin for ImageJ can be used to produce an image overlay where regions
@@ -17,5 +18,5 @@
  * 
  */
 
-public class CCNI_Split_Into_BOLD_CBF extends ij.plugin.SplitScans {
+public class CCNI_Split_Into_BOLD_CBF extends mrianalysispack.ij.plugins.SplitScans {
 }

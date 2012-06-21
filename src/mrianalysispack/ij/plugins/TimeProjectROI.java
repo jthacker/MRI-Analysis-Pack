@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  *
@@ -18,12 +18,17 @@ package ij.plugin;
  *
  *
  */
-import kfschmidt.ijcommon.IJAdapter;
-import ij.*;
+import mrianalysispack.ij.*;
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
 import ij.process.*;
 import ij.measure.*;
 import ij.gui.*;
 import java.awt.Color;
+
+import ij.plugin.PlugIn;
 import ij.plugin.filter.Analyzer;
 import java.awt.Rectangle;
 

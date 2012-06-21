@@ -20,9 +20,9 @@
  *
  *
  */
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
-import kfschmidt.simplex.SimplexOptimizer;
+import mrianalysispack.kfschmidt.simplex.SimplexOptimizer;
 
 public class RegressionToVer2 {
 	SimplexOptimizer mSimplex = new SimplexOptimizer();

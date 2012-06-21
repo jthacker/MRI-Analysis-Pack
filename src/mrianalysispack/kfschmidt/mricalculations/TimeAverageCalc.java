@@ -1,4 +1,4 @@
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 /**
  *
@@ -16,12 +16,12 @@ package kfschmidt.mricalculations;
  *
  */
 import java.awt.GridLayout;
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.IJImageChooser;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import kfschmidt.ijcommon.IJAdapter;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
 
 public class TimeAverageCalc extends MRICalculation {
 	IJImageChooser mScanChooser;

@@ -1,4 +1,4 @@
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 /**
  *   Interface for a runnable MRI Calcualtion

@@ -1,4 +1,6 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
+
+import ij.plugin.PlugIn;
 
 /**
  * 
@@ -20,7 +22,7 @@ package ij.plugin;
 public class RatioCalc implements PlugIn {
 
 	public void run(String arg) {
-		new kfschmidt.mricalculations.RatioCalc();
+		new mrianalysispack.kfschmidt.mricalculations.RatioCalc();
 	}
 
 }

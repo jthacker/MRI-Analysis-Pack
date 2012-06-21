@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  *
@@ -20,9 +20,9 @@ package ij.plugin;
  *
  */
 
+import mrianalysispack.kfschmidt.ijcommon.*;
+import mrianalysispack.kfschmidt.manuallyregisterimages.*;
 import ij.plugin.PlugIn;
-import kfschmidt.manuallyregisterimages.*;
-import kfschmidt.ijcommon.*;
 
 public class ManuallyRegisterImagesPlugin implements PlugIn {
 

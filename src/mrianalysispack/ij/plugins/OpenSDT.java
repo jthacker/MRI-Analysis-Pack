@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  * 
@@ -20,6 +20,6 @@ package ij.plugin;
  * 
  */
 
-public class OpenSDT extends kfschmidt.ijcommon.OpenSDT {
+public class OpenSDT extends mrianalysispack.kfschmidt.ijcommon.OpenSDT {
 
 }

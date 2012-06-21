@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin for ImageJ can be used to produce an image overlay where regions
@@ -17,5 +18,5 @@
  * 
  */
 
-public class Time_Project_ROI extends ij.plugin.TimeProjectROI {
+public class Time_Project_ROI extends mrianalysispack.ij.plugins.TimeProjectROI {
 }

@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *   LUTHelper simplifies the process of translating numbers to 

@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * Generalized Linear Model Analyzer plugin for ImageJ, for use analyzing 4D
@@ -17,5 +18,5 @@
  * 
  */
 
-public class GLM_Analyzer extends ij.plugin.GLMAnalyzer {
+public class GLM_Analyzer extends mrianalysispack.ij.plugins.GLMAnalyzer {
 }

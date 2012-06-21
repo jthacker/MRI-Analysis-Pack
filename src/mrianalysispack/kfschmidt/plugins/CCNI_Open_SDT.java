@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin is used to read SDT files which can be viewed in Stimulate
@@ -16,6 +17,6 @@
  * 
  * 
  */
-public class CCNI_Open_SDT extends ij.plugin.OpenSDT {
+public class CCNI_Open_SDT extends mrianalysispack.ij.plugins.OpenSDT {
 
 }

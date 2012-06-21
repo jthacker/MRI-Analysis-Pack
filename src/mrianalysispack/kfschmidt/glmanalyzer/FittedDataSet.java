@@ -1,4 +1,4 @@
-package kfschmidt.glmanalyzer;
+package mrianalysispack.kfschmidt.glmanalyzer;
 
 /**
  * User Interface for the GLM Analyzer

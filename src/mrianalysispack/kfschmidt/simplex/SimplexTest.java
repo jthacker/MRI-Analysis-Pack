@@ -20,9 +20,9 @@
  *
  *
  */
-package kfschmidt.simplex;
+package mrianalysispack.kfschmidt.simplex;
 
-import kfschmidt.simplex.SimplexOptimizer;
+import mrianalysispack.kfschmidt.simplex.SimplexOptimizer;
 
 public class SimplexTest {
 	SimplexOptimizer mSimplex = new SimplexOptimizer();

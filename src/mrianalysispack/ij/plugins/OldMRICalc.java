@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  * 
@@ -16,6 +16,6 @@ package ij.plugin;
  * 
  * 
  */
-public class OldMRICalc extends kfschmidt.oldmricalc.MRI_Analysis_Calc {
+public class OldMRICalc extends mrianalysispack.kfschmidt.oldmricalc.MRI_Analysis_Calc {
 
 }

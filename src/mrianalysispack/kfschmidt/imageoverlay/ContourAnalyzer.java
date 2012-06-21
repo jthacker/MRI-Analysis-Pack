@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *   Creates a Contour map from a 2d data array

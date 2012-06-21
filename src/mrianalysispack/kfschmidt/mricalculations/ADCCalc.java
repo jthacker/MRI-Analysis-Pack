@@ -1,4 +1,4 @@
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 /**
  *   Modification of M calculation to accomodate [dHb] in arterial side.
@@ -17,15 +17,15 @@ package kfschmidt.mricalculations;
  *
  */
 import java.awt.GridLayout;
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.IJImageChooser;
 import javax.swing.JPanel;
 import javax.swing.JCheckBox;
 import java.util.StringTokenizer;
 import java.util.Vector;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import kfschmidt.ijcommon.IJAdapter;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
 
 public class ADCCalc extends MRICalculation {
 	IJImageChooser mScanChooser;

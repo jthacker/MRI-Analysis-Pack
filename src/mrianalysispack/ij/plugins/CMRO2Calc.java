@@ -1,4 +1,6 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
+
+import ij.plugin.PlugIn;
 
 /**
  * 
@@ -22,7 +24,7 @@ package ij.plugin;
 public class CMRO2Calc implements PlugIn {
 
 	public void run(String arg) {
-		new kfschmidt.mricalculations.DAVISCMRO2Calc();
+		new mrianalysispack.kfschmidt.mricalculations.DAVISCMRO2Calc();
 	}
 
 }

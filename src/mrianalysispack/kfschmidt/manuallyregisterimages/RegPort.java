@@ -1,4 +1,4 @@
-package kfschmidt.manuallyregisterimages;
+package mrianalysispack.kfschmidt.manuallyregisterimages;
 
 /**
  *

@@ -13,7 +13,7 @@
  *
  *
  */
-package kfschmidt.simplex;
+package mrianalysispack.kfschmidt.simplex;
 
 class Vertex implements Comparable {
 

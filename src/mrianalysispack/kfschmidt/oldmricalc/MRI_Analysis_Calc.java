@@ -1,12 +1,18 @@
-package kfschmidt.oldmricalc;
+package mrianalysispack.kfschmidt.oldmricalc;
 
-import ij.*;
-import ij.plugin.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.WindowManager;
+import ij.plugin.PlugIn;
 import ij.gui.*;
 import ij.process.*;
 import ij.measure.Calibration;
 import ij.measure.CurveFitter;
 import java.util.*;
+
+import mrianalysispack.ij.*;
+import mrianalysispack.ij.plugins.*;
 
 /**
  * This plugin for ImageJ implements several MRI calculations such as the

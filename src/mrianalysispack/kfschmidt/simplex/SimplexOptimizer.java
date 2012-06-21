@@ -14,7 +14,7 @@
  *
  *
  */
-package kfschmidt.simplex;
+package mrianalysispack.kfschmidt.simplex;
 
 import java.io.PrintStream;
 import java.lang.reflect.Method;

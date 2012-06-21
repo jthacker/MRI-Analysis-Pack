@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin for ImageJ can be used to produce an image overlay where regions
@@ -17,5 +18,5 @@
  * 
  */
 
-public class Calc_Davis_CMRO2 extends ij.plugin.CMRO2Calc {
+public class Calc_Davis_CMRO2 extends mrianalysispack.ij.plugins.CMRO2Calc {
 }

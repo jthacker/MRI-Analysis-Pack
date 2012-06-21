@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  * 
@@ -19,5 +19,5 @@ package ij.plugin;
  * 
  */
 
-public class SaveAsSDT extends kfschmidt.ijcommon.SaveAsSDT {
+public class SaveAsSDT extends mrianalysispack.kfschmidt.ijcommon.SaveAsSDT {
 }

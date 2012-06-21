@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *
@@ -15,7 +15,8 @@ package kfschmidt.imageoverlay;
  *
  *
  */
-import kfschmidt.ijcommon.IJImageChooser;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
+
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;

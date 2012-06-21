@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -14,5 +15,5 @@
  * 
  */
 
-public class Image_Overlay extends ij.plugin.ImageOverlayPlugin {
+public class Image_Overlay extends mrianalysispack.ij.plugins.ImageOverlayPlugin {
 }

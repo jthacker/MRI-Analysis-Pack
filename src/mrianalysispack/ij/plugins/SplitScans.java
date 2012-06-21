@@ -1,4 +1,6 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
+
+import ij.plugin.PlugIn;
 
 /**
  * 
@@ -22,7 +24,7 @@ package ij.plugin;
 public class SplitScans implements PlugIn {
 
 	public void run(String arg) {
-		new kfschmidt.mricalculations.SplitScans();
+		new mrianalysispack.kfschmidt.mricalculations.SplitScans();
 	}
 
 }

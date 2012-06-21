@@ -1,4 +1,4 @@
-package kfschmidt.glmanalyzer;
+package mrianalysispack.kfschmidt.glmanalyzer;
 
 /**
  * String literals for GLM Analyzer

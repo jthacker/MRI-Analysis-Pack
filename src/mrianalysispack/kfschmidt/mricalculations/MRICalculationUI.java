@@ -1,4 +1,4 @@
-package kfschmidt.mricalculations;
+package mrianalysispack.kfschmidt.mricalculations;
 
 /**
  *   Generic class for implementing basics of MRICalculation
@@ -17,9 +17,11 @@ package kfschmidt.mricalculations;
  *
  */
 import javax.swing.*;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+
 import java.awt.event.*;
 import java.awt.*;
-import kfschmidt.ijcommon.IJAdapter;
 
 public class MRICalculationUI extends JFrame implements ActionListener {
 	MRICalculation mCalc;

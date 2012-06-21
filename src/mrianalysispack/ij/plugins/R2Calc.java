@@ -1,4 +1,6 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
+
+import ij.plugin.PlugIn;
 
 import java.awt.GridLayout;
 import java.util.StringTokenizer;
@@ -9,10 +11,11 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.IJImageChooser;
-import kfschmidt.mricalculations.MRICalculation;
-import kfschmidt.mricalculations.SimplexBasedRegressor;
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.IJImageChooser;
+import mrianalysispack.kfschmidt.mricalculations.MRICalculation;
+import mrianalysispack.kfschmidt.mricalculations.SimplexBasedRegressor;
+
 
 public class R2Calc implements PlugIn {
 	public void run(String arg) {
@@ -27,7 +30,7 @@ class R2ClacGui extends MRICalculation {
 
 	public JPanel getParamPanel() {
 		JPanel pan = new JPanel();
-		pan.setLayout(new GridLayout(4, 1));
+		pan.setLayout(new GridLayout(5, 1));
 
 		// scan selection
 		JPanel subpan0 = new JPanel();
@@ -81,7 +84,7 @@ class R2ClacGui extends MRICalculation {
 
 		// parse out the TE vals
 		StringTokenizer tok = new StringTokenizer(te_vals_str, sep);
-		
+
 		Vector<String> v = new Vector<String>();
 		while (tok.hasMoreTokens()) {
 			v.addElement(tok.nextToken());
@@ -100,7 +103,7 @@ class R2ClacGui extends MRICalculation {
 
 		double[][][][] r2_map = null;
 		double[][][][] rSquared_map = null;
-
+		
 		try {
 			IJAdapter ijada = new IJAdapter();
 			double[][][][] scan = ijada.get4DDataForId(mScanChooser.getSelectedIJId());
@@ -136,7 +139,7 @@ class R2ClacGui extends MRICalculation {
 							rSquared_map[0][s][x][y] = 0d;
 
 						} else {
-							regressed = simplexregressor.regressR2(te_vals, sn_vals, 0.05d);
+							regressed = simplexregressor.regressR2(te_vals, sn_vals, 50);
 							r2_map[0][s][x][y] = regressed[0];
 							rSquared_map[0][s][x][y] = regressed[2];
 						}
@@ -147,7 +150,7 @@ class R2ClacGui extends MRICalculation {
 			}
 
 			setStatusMsg("Finished");
-
+			
 			// send the images back to imagej
 			ijada.takeImage("R2_map", r2_map);
 			if (mShowRMap.isSelected())

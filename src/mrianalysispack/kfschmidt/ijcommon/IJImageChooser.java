@@ -1,4 +1,4 @@
-package kfschmidt.ijcommon;
+package mrianalysispack.kfschmidt.ijcommon;
 
 /**
  *   Simple JComboBox extension that populates and 

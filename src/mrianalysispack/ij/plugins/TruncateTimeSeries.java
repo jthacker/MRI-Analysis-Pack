@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  * 
@@ -17,6 +17,6 @@ package ij.plugin;
  * 
  */
 
-public class TruncateTimeSeries extends kfschmidt.ijcommon.TimeSeriesTruncator {
+public class TruncateTimeSeries extends mrianalysispack.kfschmidt.ijcommon.TimeSeriesTruncator {
 
 }

@@ -1,4 +1,4 @@
-package kfschmidt.manuallyregisterimages;
+package mrianalysispack.kfschmidt.manuallyregisterimages;
 
 /**
  *
@@ -20,9 +20,11 @@ import java.awt.*;
 import java.util.*;
 import javax.swing.filechooser.*;
 import java.text.*;
-import kfschmidt.ijcommon.ImageSource;
-import kfschmidt.ijcommon.IJAdapter;
-import kfschmidt.ijcommon.ImageSink;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
+import mrianalysispack.kfschmidt.ijcommon.ImageSink;
+import mrianalysispack.kfschmidt.ijcommon.ImageSource;
+
 import java.io.File;
 import javax.swing.*;
 

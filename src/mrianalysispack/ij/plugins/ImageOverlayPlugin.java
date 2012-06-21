@@ -1,4 +1,4 @@
-package ij.plugin;
+package mrianalysispack.ij.plugins;
 
 /**
  *
@@ -25,11 +25,12 @@ import ij.IJ;
 import ij.WindowManager;
 import ij.process.ImageProcessor;
 import ij.plugin.PlugIn;
-import kfschmidt.imageoverlay.*;
 import java.awt.Image;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-import kfschmidt.ijcommon.*;
+
+import mrianalysispack.kfschmidt.ijcommon.*;
+import mrianalysispack.kfschmidt.imageoverlay.*;
 
 public class ImageOverlayPlugin implements PlugIn {
 

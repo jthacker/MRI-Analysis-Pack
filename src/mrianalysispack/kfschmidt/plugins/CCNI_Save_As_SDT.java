@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * This plugin is used to output SDT files which can be viewed in Stimulate
@@ -16,6 +17,6 @@
  * 
  * 
  */
-public class CCNI_Save_As_SDT extends ij.plugin.SaveAsSDT {
+public class CCNI_Save_As_SDT extends mrianalysispack.ij.plugins.SaveAsSDT {
 
 }

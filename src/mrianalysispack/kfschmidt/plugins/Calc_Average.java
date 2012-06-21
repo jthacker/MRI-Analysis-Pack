@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -16,5 +17,5 @@
  * 
  */
 
-public class Calc_Average extends ij.plugin.AverageCalc {
+public class Calc_Average extends mrianalysispack.ij.plugins.AverageCalc {
 }

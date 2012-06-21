@@ -1,4 +1,4 @@
-package kfschmidt.math;
+package mrianalysispack.kfschmidt.math;
 
 /**
  *   Collection of static LinearAlgebra methods, calculated

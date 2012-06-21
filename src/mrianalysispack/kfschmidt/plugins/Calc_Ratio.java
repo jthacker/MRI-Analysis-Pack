@@ -1,3 +1,4 @@
+package mrianalysispack.kfschmidt.plugins;
 /**
  * 
  * 
@@ -16,5 +17,5 @@
  * 
  */
 
-public class Calc_Ratio extends ij.plugin.RatioCalc {
+public class Calc_Ratio extends mrianalysispack.ij.plugins.RatioCalc {
 }

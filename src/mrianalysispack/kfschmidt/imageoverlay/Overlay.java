@@ -1,4 +1,4 @@
-package kfschmidt.imageoverlay;
+package mrianalysispack.kfschmidt.imageoverlay;
 
 /**
  *   The overlay contains the background image, overlaid map and
@@ -17,7 +17,8 @@ package kfschmidt.imageoverlay;
  */
 import java.awt.image.*;
 import java.awt.geom.*;
-import kfschmidt.ijcommon.IJAdapter;
+
+import mrianalysispack.kfschmidt.ijcommon.IJAdapter;
 
 public class Overlay {
 	BufferedImage mBgImage;
