@@ -3,7 +3,7 @@ Original source code found here: http://ij-plugins.svn.sourceforge.net/viewvc/ij
 Manual found here: http://rsbweb.nih.gov/ij/plugins/download/misc/MRIAnalysisPak/MRIAnalysisPak_Docs/MRIAnalysisPakManual.PDF
 
 Installation:
-
+* Copy the mrianalysispak_.jar file to the plugins directory of ImageJ
 
 New Features:
 * Added R2* calculations
